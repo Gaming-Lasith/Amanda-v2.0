@@ -63,8 +63,8 @@ from Amanda.modules.helper_funcs.misc import paginate_modules
 from Amanda.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓶𝓪𝓷𝓭𝓪
-I'm a Powerful group manager bot With Cool Modules. Made by [𝒯𝒽𝒶𝓇𝓊𝓀 ℛℯ𝓃𝓊𝒿𝒶• 🇱🇰](t.me/TharukRenuja)
+Hello there, I'm 𝒜𝓁𝑒𝓍𝒾𝒶
+I'm a Powerful group manager bot With Cool Modules. Made by [ԌΛϺェƝԌ 𝙇Λ𝕊ェтℋ](t.me/ItsMeLasith)
 Hit /help to find my list of available commands
  
 """
@@ -72,10 +72,10 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/SLBotsOfficial"
+            text="📢Updates Channel", url="https://t.me/TheAlexiabotUpdats"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/trtechguide"
+            text="👥 Support Group", url="https://t.me/TheAlexiabotDiscussion"
         ),
     ],
     [
@@ -83,21 +83,21 @@ buttons = [
             text="📜Source", url="https://github.com/TR-TECH-GUIDE/Amanda"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAmandabot?start=help"
+            text="❔ Help", url="http://t.me/TheAlexiaBot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Amanda to your group ➕",
+            text="➕ Add Alexia to your group ➕",
             url="t.me/TheAmandabot?startgroup=true",
         ),
     ],
 ]
 
-Amanda_IMG = "https://telegra.ph/file/04d73369440abc48ab3ce.png"
+Amanda_IMG = "https://telegra.ph/file/c8bf11287743caeee257b.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/04d73369440abc48ab3ce.png)
+*Main Commands :* [🤖](https://telegra.ph/file/c8bf11287743caeee257b.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [𝒯𝒽𝒶𝓇𝓊𝓀 ℛℯ𝓃𝓊𝒿𝒶](t.me/TharukRenuja)"""
+Support them  [ԌΛϺェƝԌ 𝙇Λ𝕊ェтℋ](t.me/ItsMeLasith)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,8 +373,8 @@ def Amanda_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by SLBotsOfficial.* "
-            f"\n\n Join [SLBotsOfficial](https://t.me/SLBotsOfficial) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by TeamLz.* "
+            f"\n\n Join [TeamLz](https://t.me/TeamLz) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -407,7 +407,7 @@ def Amanda_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [TRTECHGUIDE](https://t.me/trtechguide).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Support](https://t.me/TheAlexiabotDiscussion).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
